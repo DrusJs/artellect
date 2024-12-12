@@ -2353,8 +2353,10 @@ body:has(#main_reviews_screen_block_list_img_container_cont.active) {
     }
 
     .main section:first-child {
-        padding-top: 130px;
+        padding-top: 70px;
     }
+
+    
     
     .subtitle,
     .consult-roadmap-section .subtitle {
@@ -2456,6 +2458,9 @@ body:has(#main_reviews_screen_block_list_img_container_cont.active) {
 @media (max-width: 500px) {
     .consult-roadmap__form .primary-button {
         left: 10%;
+    }
+    .banner-section {
+        height: 350px;
     }
     .breadcrumbs, .breadcrumbs-link {
         font-size: 12px;
