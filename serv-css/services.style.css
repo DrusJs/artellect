@@ -488,7 +488,7 @@ h1.title {
     align-items: center;
     justify-content: center;
     position: relative;
-    padding-top: 50px;
+    padding-top: 24px;
 }
 
 .road-absolute {
@@ -504,7 +504,8 @@ h1.title {
 .road-absolute img {
     width: 100%;
     max-width: 100%;
-    height: 60px;
+    height: 70px;
+    margin-bottom: -30px;
 }
 .linear-rnb-item {
     display: block;
@@ -1890,7 +1891,7 @@ body:has(#main_reviews_screen_block_list_img_container_cont.active) {
         background-size: 100% 770px;
     }
     .services-single-road-item {
-        backdrop-filter: blur(4px);
+        backdrop-filter: blur(20px);
     }
     .services-single-main .main-title {
         font-size: 36px;
