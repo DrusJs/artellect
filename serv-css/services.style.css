@@ -285,7 +285,7 @@ h1.title {
     align-items: center;
     gap: 20px;
     padding: 10px;
-    animation: marquee-anim 2s linear infinite;
+    animation: marquee-anim 16s linear infinite;
     will-change: transform;
 }
 
@@ -1593,7 +1593,7 @@ body:has(#main_reviews_screen_block_list_img_container_cont.active) {
     }
 
     .marquee-container {
-        animation: marquee-anim2 2s linear infinite;
+        animation: marquee-anim2 16s linear infinite;
     }
 
 
@@ -2411,7 +2411,7 @@ body:has(#main_reviews_screen_block_list_img_container_cont.active) {
     }
 
     .main section:first-child {
-        padding-top: 80px;
+        padding-top: 110px;
     }
 
     
