@@ -1582,6 +1582,18 @@ body:has(#main_reviews_screen_block_list_img_container_cont.active) {
 
 
 @media (min-width: 1980px) {
+    .road-absolute {
+        max-width: 100%;
+    }
+    .road-absolute img {
+        height: auto;
+    }
+    .linear-rnb-item {
+        height: 1.5vw;
+    }
+    .services-single-road {
+        padding-top: 2.4vw;
+    }
     body {
         background-color: var(--color-body);
         font-family: var(--font-primary);
@@ -1808,6 +1820,9 @@ body:has(#main_reviews_screen_block_list_img_container_cont.active) {
         width: 18.08vw;
         height: 11.92vw;
     }
+    .consult-roamap__decor img:nth-child(2) {
+        left: 1100px;
+    }
     .consultation-info__wrapper {
         justify-content: center;
     }
@@ -1820,28 +1835,27 @@ body:has(#main_reviews_screen_block_list_img_container_cont.active) {
         padding: 3.33vw;
     } */
     
-    .consult-prise__table th, .consult-prise__table td {
-        width: 17.12vw;
-        height: 6.72vw;
+    .consult-roadmap-section .container,
+    .services-single-faq .container {
+        padding: 0 100px;
+        max-width: 1880px;
     }
     
-    .consult-roadmap__info {
-        padding: 3.43vw 5.05vw 3.94vw;
-        max-width: 42.07vw;
-    }
-    
-    .consult-roadmap__form-wrapper {
-        margin-top: 3.38vw;
-        margin-left: 8.49vw;
-        max-width: 51.52vw;
-        height: 23.94vw;
-        padding: 3.03vw 5.05vw 0 7.37vw;
+    .services-single-faq {
+        min-height: 1480px;
     }
     
     .primary-button {
         max-width: 20.2vw;
         height: 4.29vw;
         font-size: 1.01vw;
+    }
+
+    .consult-roadmap__form .primary-button {
+        max-width: 400px;
+        width: 100%;
+        height: 85px;
+        font-size: 20px;
     }
     
     .banner-section {
