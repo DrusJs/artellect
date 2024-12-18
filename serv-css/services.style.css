@@ -1580,6 +1580,10 @@ body:has(#main_reviews_screen_block_list_img_container_cont.active) {
     }
 }
 
+.price-bg .banner-section {
+    padding-top: 170px;
+}
+
 
 @media (min-width: 1980px) {
     .road-absolute {
@@ -2426,6 +2430,10 @@ body:has(#main_reviews_screen_block_list_img_container_cont.active) {
 
     .main > section:first-child {
         padding-top: 116px;
+    }
+
+    .price-bg .banner-section {
+        padding-top: 80px;
     }
 
     
