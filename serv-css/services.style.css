@@ -1371,8 +1371,9 @@ h1.title {
     pointer-events: none;
     transition: opacity 200ms ease-in-out 300ms, visibility 200ms ease-in-out 300ms;
     z-index: 99999;
-    padding: 40px;
+    padding: 40px 100px;
     display: flex;
+    overflow: hidden;
 }
 .modal-wrapper.active {
     opacity: 1;
@@ -2037,6 +2038,18 @@ body:has(#main_reviews_screen_block_list_img_container_cont.active) {
     .header-inner {
         padding: 52px 0;
     }
+    .modal-title {
+        font-size: 30px;
+    }
+    .modal-text {
+        font-size: 22px;
+    }
+    .modal-textsm {
+        font-size: 18px;
+    }
+    .modal-flex #top_screen_logo_txt {
+        display: none;
+    }
     .absolute-binary {
         top: 200px;
     }
@@ -2311,6 +2324,20 @@ body:has(#main_reviews_screen_block_list_img_container_cont.active) {
         max-width: 62vw;
         left: 10%;
         bottom: 10px;
+    }
+    .modal-wrapper {
+        padding: 0 20px;
+    }
+    .modal {
+        padding: 30px 16px;
+    }
+    .tg-abs {
+        display: none;
+    }
+    .modal .modal-flex:last-child {
+        flex-direction: column;
+        gap: 20px;
+        align-items: flex-start;
     }
     .services-main-inner {
         padding: 120px 0 50vw;
