@@ -161,7 +161,7 @@ button {
     color: var(--color-sky);
 }
 
-.main section:first-child {
+.main > section:first-child {
     padding-top: 170px;
 }
 
