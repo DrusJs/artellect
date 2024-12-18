@@ -2424,7 +2424,7 @@ body:has(#main_reviews_screen_block_list_img_container_cont.active) {
         max-width: 100%;
     }
 
-    .main section:first-child {
+    .main > section:first-child {
         padding-top: 116px;
     }
 
